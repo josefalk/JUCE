@@ -1,0 +1,10 @@
+* Usage
+
+** Clone the template
+  git clone --recursive https://github.com/malkhuzanie/juce.git
+
+** Building the project
+  cmake -B build .
+  cmake --build build 
+
+
