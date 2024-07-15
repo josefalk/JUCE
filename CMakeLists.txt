@@ -17,7 +17,9 @@ cmake_minimum_required(VERSION 3.22)
 
 project(GUI_APP_EXAMPLE VERSION 0.0.1)
 
-add_subdirectory("JUCE")
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/../lib/JUCE ${CMAKE_CURRENT_BINARY_DIR}/JUCE)
+# using full path
+#add_subdirectory("C:/Users/xxx/p/test2/lib/JUCE" ${CMAKE_CURRENT_BINARY_DIR}/JUCE) 
 
 # If you've installed JUCE somehow (via a package manager, or directly using the CMake install
 # target), you'll need to tell this project that it depends on the installed copy of JUCE. If you've
