@@ -2,7 +2,7 @@
 
 ** Clone the template
   #+begin_src cpp
-´git clone --recursive https://github.com/josefalk/juce.git´
+git clone --recursive https://github.com/josefalk/juce.git
   #+end_src
 
 ** Building the project
