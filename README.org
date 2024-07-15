@@ -7,8 +7,8 @@ git clone --recursive https://github.com/josefalk/juce.git
 
 ** Building the project
   #+begin_src cpp
-´cmake -B build .´
-´cmake --build build ´
+cmake -B build .
+cmake --build build 
   #+end_src
 
 
